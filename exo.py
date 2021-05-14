@@ -7,6 +7,18 @@ import random
 #age < 21 => non
 #sinon => oui
 
+while True:
+    user_age = input("quel est votre âge ? ")
+
+    try:
+        user_age = int(user_age)
+        break
+    except:
+        pass
+
+print(user_age)
+
+
 #Exercice 2
 
 #écrire une fonction qui pour un paramètre passé dis si oui ou non l'utilisateur peut accéder au site suivant le pay
@@ -16,6 +28,9 @@ import random
 #sinon => oui
 
 #Exercice 3
+
+for i in range(0, 16):
+      print(i)
 
 #écrire une fonction qui compte de 1 au paramètre passé
 #exemple:
